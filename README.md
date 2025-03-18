@@ -29,6 +29,11 @@ I would also like to mention that the dashed lines indicate a non-identifying re
 
 
 # Queries
+Query 1 lists the quantity of each inventory item along with the name of the supplier that provides the item where the quantity in stock is below 100 units. The results are ordered in ascending order based on quantity, showing the items with the lowest stock first.
+![image](https://github.com/user-attachments/assets/649a7dd3-fa04-49dd-8814-a9e663ee0a35)
+Query 1 allows managers to quickly identify which inventory items are running low and which suppliers provide these items. By focusing on items with quantities below 100, managers can prioritize reordering essential ingredients, beverages, or supplies before they run out. Listing the results in ascending order based on quantity makes it easier to spot the most critically low items first, allowing for timely restocking and smooth coffee shop operations. 
+
+
 
 # Database Information
 Name of the database: al_Group_47114_G9
