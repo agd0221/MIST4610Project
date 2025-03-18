@@ -23,6 +23,6 @@ This data model supports the storage of essential information for managing a cof
 # Queries
 
 # Database Information
-
+Name of the database: al_Group_47114_G9
 
 # ChatGPT Use
