@@ -21,7 +21,9 @@ To improve the coffee shop and get feedback, the business collects CustomerFeedb
 
 The coffee shop also offers Discounts on certain orders, with the attributes discount percentage, description, and validity period. Each discount is applied to an order, forming a one-to-many relationship between Orders and Discounts.
 
-Finally, the Payments table records financial transactions, including payment methods, amounts, and dates. Since each order results in a payment transaction, there is a one-to-one relationship between Orders and Payments
+Finally, the Payments table records financial transactions, including payment methods, amounts, and dates. Since each order results in a payment transaction, there is a one-to-one relationship between Orders and Payments.
+
+I would also like to mention that the dashed lines indicate a non-identifying relationship which means that the child entity can exist independently of the parent entity. In contrast, the solid black lines indicate a idetnifying relationship which shows that the child can't exist independently from the parent entity.
 
 # Data Dictionary
 
