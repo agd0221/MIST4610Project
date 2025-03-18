@@ -6,8 +6,7 @@ Group 9
 # Problem Description
 
 # Data Model
-![Datamodel](datamodel/datamodel.png)
-
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/datamodel)
 # Data Dictionary
 
 
