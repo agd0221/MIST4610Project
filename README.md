@@ -6,7 +6,7 @@ Group 9
 # Problem Description
 
 # Data Model
-
+git add <datamodel>
 
 # Data Dictionary
 
