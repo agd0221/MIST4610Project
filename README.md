@@ -36,15 +36,26 @@ Query 1 retrieves a list of all employees, displaying their EmployeeID, Name, an
 
 This query is useful for managers and HR teams who need a quick overview of all employees within the organization, along with their roles. It can serve as a foundation for more detailed employee reports, such as identifying specific roles within departments, tracking employee performance, or even managing schedules.
 
-Query 2:
-Query 2 lists the quantity of each inventory item along with the name of the supplier that provides the item where the quantity in stock is below 100 units. The results are ordered in ascending order based on quantity, showing the items with the lowest stock first.
-![image](https://github.com/user-attachments/assets/649a7dd3-fa04-49dd-8814-a9e663ee0a35)
-Query 2 allows managers to quickly identify which inventory items are running low and which suppliers provide these items. By focusing on items with quantities below 100, managers can prioritize reordering essential ingredients, beverages, or supplies before they run out. Listing the results in ascending order based on quantity makes it easier to spot the most critically low items first, allowing for timely restocking and smooth coffee shop operations. 
+Query 2 (Simple):
+Query 2 retrieves the Rating and Comments from the CustomerFeedback table where the Rating is less than or equal to 3.
 
-Query 3:
-Query 3 lists each menu item along with the total quantity of that item ordered across all orders. It joins the MenuItems and OrderDetails tables to calculate the total quantity ordered for each item, groups the results by item, and orders them in descending order based on the total quantity ordered.
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/b7db1031-89ea-42c1-bc18-5cc3524b697a" />
+
+This query helps managers quickly identify negative or critical customer feedback. By filtering for ratings of 3 or lower, it allows managers to focus on areas that may need attention, such as customer service or product quality. Reviewing this feedback can lead to actionable insights, allowing businesses to address customer concerns, improve their offerings, and enhance overall customer satisfaction. 
+
+Query 5 (Complex):
+Query 5 lists the quantity of each inventory item along with the name of the supplier that provides the item where the quantity in stock is below 100 units. The results are ordered in ascending order based on quantity, showing the items with the lowest stock first.
+
+![image](https://github.com/user-attachments/assets/649a7dd3-fa04-49dd-8814-a9e663ee0a35)
+
+Query 5 allows managers to quickly identify which inventory items are running low and which suppliers provide these items. By focusing on items with quantities below 100, managers can prioritize reordering essential ingredients, beverages, or supplies before they run out. Listing the results in ascending order based on quantity makes it easier to spot the most critically low items first, allowing for timely restocking and smooth coffee shop operations. 
+
+Query 6 (Complex):
+Query 6 lists each menu item along with the total quantity of that item ordered across all orders. It joins the MenuItems and OrderDetails tables to calculate the total quantity ordered for each item, groups the results by item, and orders them in descending order based on the total quantity ordered.
+
 ![image](https://github.com/user-attachments/assets/e6b22d11-dd3b-407a-9ebd-aa108eece04f)
-Query 3 enables managers to see which menu items are the most popular based on the total quantity ordered. This helps with decisions such as inventory planning, promotional focus, and menu adjustments. By identifying top-selling items, managers can ensure that sufficient inventory is maintained, streamline the supply chain for these high-demand products, and potentially create promotions or bundles around them. Sorting the results in descending order highlights the best-selling items at the top, allowing managers to prioritize attention on the most impactful menu offerings.
+
+Query 6 enables managers to see which menu items are the most popular based on the total quantity ordered. This helps with decisions such as inventory planning, promotional focus, and menu adjustments. By identifying top-selling items, managers can ensure that sufficient inventory is maintained, streamline the supply chain for these high-demand products, and potentially create promotions or bundles around them. Sorting the results in descending order highlights the best-selling items at the top, allowing managers to prioritize attention on the most impactful menu offerings.
 
 # Database Information
 Name of the database: al_Group_47114_G9
