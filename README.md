@@ -53,6 +53,13 @@ Query 2 retrieves the Rating and Comments from the CustomerFeedback table where 
 
 This query helps managers quickly identify negative or critical customer feedback. By filtering for ratings of 3 or lower, it allows managers to focus on areas that may need attention, such as customer service or product quality. Reviewing this feedback can lead to actionable insights, allowing businesses to address customer concerns, improve their offerings, and enhance overall customer satisfaction. 
 
+Query 3 (Simple):
+Query 3 retrieves the Name, Email, and the number of customer visits (CustomerVisits) for each customer from the Customers table. 
+
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/db91e030-f89a-462f-a5f7-cd7a9aa3391f" />
+
+This query helps businesses track the number of visits for each customer. By grouping the data by customer Name and Email, it allows the business to gain insights into customer engagement. With this information, managers can identify frequent visitors. By knowing the visit count for each customer, businesses can assess customer retention and identify potential areas for improvement in customer experience.
+
 Query 5 (Complex):
 Query 5 lists the quantity of each inventory item along with the name of the supplier that provides the item where the quantity in stock is below 100 units. The results are ordered in ascending order based on quantity, showing the items with the lowest stock first.
 
