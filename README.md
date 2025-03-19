@@ -42,42 +42,42 @@ I would also like to mention that the dashed lines indicate a non-identifying re
 Query 1 (Simple):
 Query 1 retrieves a list of all employees, displaying their EmployeeID, Name, and Role. It directly pulls the necessary information from the Employees table without any joins or filters.
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/73e31f53-99e8-4c1e-a7b4-6a5452c1de1d" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/73e31f53-99e8-4c1e-a7b4-6a5452c1de1d" />
 
 This query is useful for managers and HR teams who need a quick overview of all employees within the organization, along with their roles. It can serve as a foundation for more detailed employee reports, such as identifying specific roles within departments, tracking employee performance, or even managing schedules.
 
 Query 2 (Simple):
 Query 2 retrieves the Rating and Comments from the CustomerFeedback table where the Rating is less than or equal to 3.
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/b7db1031-89ea-42c1-bc18-5cc3524b697a" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/b7db1031-89ea-42c1-bc18-5cc3524b697a" />
 
 This query helps managers quickly identify negative or critical customer feedback. By filtering for ratings of 3 or lower, it allows managers to focus on areas that may need attention, such as customer service or product quality. Reviewing this feedback can lead to actionable insights, allowing businesses to address customer concerns, improve their offerings, and enhance overall customer satisfaction. 
 
 Query 3 (Simple):
 Query 3 retrieves the Name, Email, and the number of customer visits (CustomerVisits) for each customer from the Customers table. 
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/db91e030-f89a-462f-a5f7-cd7a9aa3391f" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/db91e030-f89a-462f-a5f7-cd7a9aa3391f" />
 
 This query helps businesses track the number of visits for each customer. By grouping the data by customer Name and Email, it allows the business to gain insights into customer engagement. With this information, managers can identify frequent visitors. By knowing the visit count for each customer, businesses can assess customer retention and identify potential areas for improvement in customer experience.
 
 Query 5 (Complex):
 Query 5 lists the quantity of each inventory item along with the name of the supplier that provides the item where the quantity in stock is below 100 units. The results are ordered in ascending order based on quantity, showing the items with the lowest stock first.
 
-![image](https://github.com/user-attachments/assets/649a7dd3-fa04-49dd-8814-a9e663ee0a35)
+<img src="https://github.com/user-attachments/assets/649a7dd3-fa04-49dd-8814-a9e663ee0a35" width="450" />
 
 Query 5 allows managers to quickly identify which inventory items are running low and which suppliers provide these items. By focusing on items with quantities below 100, managers can prioritize reordering essential ingredients, beverages, or supplies before they run out. Listing the results in ascending order based on quantity makes it easier to spot the most critically low items first, allowing for timely restocking and smooth coffee shop operations. 
 
 Query 6 (Complex):
 Query 6 lists each menu item along with the total quantity of that item ordered across all orders. It joins the MenuItems and OrderDetails tables to calculate the total quantity ordered for each item, groups the results by item, and orders them in descending order based on the total quantity ordered.
 
-![image](https://github.com/user-attachments/assets/e6b22d11-dd3b-407a-9ebd-aa108eece04f)
+![image](https://github.com/user-attachments/assets/e6b22d11-dd3b-407a-9ebd-aa108eece04f =450x)
 
 Query 6 enables managers to see which menu items are the most popular based on the total quantity ordered. This helps with decisions such as inventory planning, promotional focus, and menu adjustments. By identifying top-selling items, managers can ensure that sufficient inventory is maintained, streamline the supply chain for these high-demand products, and potentially create promotions or bundles around them. Sorting the results in descending order highlights the best-selling items at the top, allowing managers to prioritize attention on the most impactful menu offerings.
 
 Query 7 (Complex):
 Query 7 retrieves the Name, Price, and the count of how many times each menu item has been ordered (TimesOrdered) from the MenuItems and OrderDetails tables. The results are grouped by the menu item name and price, and ordered in descending order based on the number of times each item has been ordered.
 
-<img width="455" alt="image" src="https://github.com/user-attachments/assets/b099460f-609c-4e1a-8231-ba7c72c031ff" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/b099460f-609c-4e1a-8231-ba7c72c031ff" />
 
 This query enables businesses to identify their top-selling menu items based on how frequently they are ordered. By joining the MenuItems and OrderDetails tables, it counts the number of times each menu item appears in customer orders. Sorting the results in descending order highlights the most popular items at the top, allowing managers to focus on high-demand products.
 
