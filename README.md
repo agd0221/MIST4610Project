@@ -50,7 +50,9 @@ Query 3 enables managers to see which menu items are the most popular based on t
 Name of the database: al_Group_47114_G9
 
 # ChatGPT Use
-In order to make sure we are being as clear as possible with where we used AI while working on this project, we are incorporating this section to lay that out. We began our project by asking ChatGPT,“I am the owner of a local coffee shop in Athens needing to build a relational database. I have hired some students from the MIST 4610 class at the University of Georgia to create the database for me. They need to know more about my organization to identify which entities, attributes, and relationships are important for me. Start by describing yourself as a real client . Make sure there is enough to build 10 queries (6 complex and 4 simple)”. 
+In order to make sure we are being as clear as possible with where we used AI while working on this project, we are incorporating this section to lay that out. 
+
+We began our project by asking ChatGPT,“I am the owner of a local coffee shop in Athens needing to build a relational database. I have hired some students from the MIST 4610 class at the University of Georgia to create the database for me. They need to know more about my organization to identify which entities, attributes, and relationships are important for me. Start by describing yourself as a real client . Make sure there is enough to build 10 queries (6 complex and 4 simple)”. 
 
 This question was able to help us guide our decisions in what entities we were going to use and the attributes included in them. We used many of its ideas, but edited the response to fit what we were looking for. 
 
