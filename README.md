@@ -120,6 +120,14 @@ Query 8 retrieves the OrderDateTime, Name of the menu item, and the total quanti
 
 This query helps businesses identify the top-selling menu item for each day based on the total quantity ordered. By using a subquery to calculate the maximum total quantity ordered on each day, the query ensures that only the highest-selling item for each day is returned. Sorting and grouping the results by order date and item name allows managers to easily track which menu items are most popular.
 
+Query 9 (Complex):
+Query 9 retrieves the supplier names, the number of menu items each supplier provides (ItemsSupplied), and the percentage of total menu items supplied by each supplier (PercentOfTotalItems). The results are grouped by supplier and sorted by the percentage of menu items each supplier provides.
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/f70d61d4-c860-415a-b78d-0fe2345f2a22" />
+
+This query allows managers to understand which suppliers are responsible for the most menu items and whether there are any suppliers underutilized. This query helped highlight we are not fully utilizing our suppliers.
+
+
 # Database Information
 Name of the database: al_Group_47114_G9
 
