@@ -103,7 +103,7 @@ Query 6 enables managers to see which menu items are the most popular based on t
 Query 7 (Complex):
 Query 7 retrieves the OrderDateTime, Name of the menu item, and the total quantity of that menu item ordered (TotalQuantity) for each specific day. It joins the Orders, OrderDetails, and MenuItems tables to calculate the total quantity ordered for each item, then compares the total quantity to identify the most ordered item for each day.
 
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/30275b40-8e24-4bc8-96ae-bb31b081fd41" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/c25b37cd-0365-4de8-9ac4-e546f032c09e" />
 
 This query helps businesses identify the top-selling menu item for each day based on the total quantity ordered. By using a subquery to calculate the maximum total quantity ordered on each day, the query ensures that only the highest-selling item for each day is returned. Sorting and grouping the results by order date and item name allows managers to easily track which menu items are most popular.
 
