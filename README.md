@@ -60,6 +60,13 @@ Query 3 retrieves the Name, Email, and the number of customer visits (CustomerVi
 
 This query helps businesses track the number of visits for each customer. By grouping the data by customer Name and Email, it allows the business to gain insights into customer engagement. With this information, managers can identify frequent visitors. By knowing the visit count for each customer, businesses can assess customer retention and identify potential areas for improvement in customer experience.
 
+Query 4 (Simple):
+Query 4 retrieves the Name, Role, ShiftDate, ShiftStartTime, and ShiftEndTime for each employee by joining the Employees and EmployeeSchedule tables. It connects the two tables on the EmployeeID and Employees_EmployeeID to get the employee’s schedule information.
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/ebe11011-5ce0-4325-b1ef-ab23273b69bb" />
+
+This query provides a detailed view of each employee's scheduled shifts, including the date and start and end times of their shifts. By joining the Employees and EmployeeSchedule tables, the query enables managers to track when each employee is scheduled to work. This information is crucial for scheduling, shift planning, and resource management. It also helps HR teams or managers ensure proper staffing levels, avoid scheduling conflicts, and monitor employee availability.
+
 Query 5 (Complex):
 Query 5 lists the quantity of each inventory item along with the name of the supplier that provides the item where the quantity in stock is below 100 units. The results are ordered in ascending order based on quantity, showing the items with the lowest stock first.
 
