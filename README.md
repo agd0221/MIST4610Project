@@ -71,7 +71,6 @@ Query 1 retrieves a list of all employees, displaying their EmployeeID, Name, an
 
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/7c5b47ca-8e49-4791-8e50-4553b7a62ba7" />
 
-
 This query is useful for managers and HR teams who need a quick overview of all employees within the organization, along with their roles. It can serve as a foundation for more detailed employee reports, such as identifying specific roles within departments, tracking employee performance, or even managing schedules.
 
 Query 2 (Simple):
@@ -80,6 +79,13 @@ Query 2 retrieves the Rating and Comments from the CustomerFeedback table where 
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/0a41de53-c276-45b3-acaf-bd8d3222caa8" />
 
 This query helps managers quickly identify negative or critical customer feedback. By filtering for ratings of 3 or lower, it allows managers to focus on areas that may need attention, such as customer service or product quality. Reviewing this feedback can lead to actionable insights, allowing businesses to address customer concerns, improve their offerings, and enhance overall customer satisfaction. 
+
+Query 3 (Simple):
+Query 3 retrieves the Name, Price, and Availability for each menu item from the MenuItems table. This simple query provides key details about the menu items, allowing businesses to quickly view essential product information.
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/a00d477c-23b6-4e0b-a3e8-42f5fe27ae04" />
+
+This query is particularly useful for businesses that need an overview of their menu offerings. By selecting the name, price, and availability of each menu item, it provides a snapshot of the products available for customers to order.
 
 Query 4 (Simple):
 Query 4 retrieves the Name, Role, ShiftDate, ShiftStartTime, and ShiftEndTime for each employee by joining the Employees and EmployeeSchedule tables. It connects the two tables on the EmployeeID and Employees_EmployeeID to get the employee’s schedule information.
