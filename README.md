@@ -96,7 +96,7 @@ Query 5 allows managers to quickly identify which inventory items are running lo
 Query 6 (Complex):
 Query 6 lists each menu item along with the total quantity of that item ordered across all orders. It joins the MenuItems and OrderDetails tables to calculate the total quantity ordered for each item, groups the results by item, and orders them in descending order based on the total quantity ordered.
 
-<img src="https://github.com/user-attachments/assets/e6b22d11-dd3b-407a-9ebd-aa108eece04f" width="450" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/738d263a-7023-49f8-9d22-96be2d203cfc" />
 
 Query 6 enables managers to see which menu items are the most popular based on the total quantity ordered. This helps with decisions such as inventory planning, promotional focus, and menu adjustments. By identifying top-selling items, managers can ensure that sufficient inventory is maintained, streamline the supply chain for these high-demand products, and potentially create promotions or bundles around them. Sorting the results in descending order highlights the best-selling items at the top, allowing managers to prioritize attention on the most impactful menu offerings.
 
