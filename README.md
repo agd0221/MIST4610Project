@@ -16,7 +16,7 @@ Our team is designing a data model for a "fake" local coffee shop named "Athens 
 As we all know, a coffee shop offers a variety of coffee beverages - ranging from classic coffee to special lattes and cold brews - as well as coffee beans, freshly baked pastries, and branded merchandise such as mugs and tote bags.
 Customers have the opportunity to place orders in-store, where they can interact with baristas and employees in our cafe.
 As an incentive, the coffee shop offers discounts on select items to encourage customers to return.
-The ordering process involves customers selecting whateveer they want, followed by baristas  preparing and serving the beverages while ensuring quality and efficiency.
+The ordering process involves customers selecting whatever they want, followed by baristas  preparing and serving the beverages while ensuring quality and efficiency.
 In other words, customers order these products and are fulfilled by employees through the ordering process.
 To improve customer satisfaction, customers have the opportunity to provide feedback based on their experiences with us that day. Feedback is important because it helps us maintain high standards and helps us refine our operations.
 This datamodel will support inventory tracking by monitoring stock levels of coffee, coffee beans, and other ingredients; this ensures timely restocking and reduces wasted resources.
