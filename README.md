@@ -48,13 +48,15 @@ I would also like to mention that the dashed lines indicate a non-identifying re
 
 ![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Discounts)
 
-![Datamodel](
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Employees)
 
-![Datamodel](
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/EmployeeSchedule)
 
-![Datamodel](
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Inventory)
 
-![Datamodel](
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/CustomerFeedback)
+
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Suppliers)
 
 # Queries
 Query 1 (Simple):
