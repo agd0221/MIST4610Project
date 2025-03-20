@@ -9,7 +9,7 @@ Anastasia Draughn - agd82889@uga.edu <br/>
 Justin Tran - jat966554@uga.edu <br/>
 Claire Friers - cef19295@uga.edu <br/>
 Jack Saylor - jds56127@uga.edu <br/>
-Ayaan Godil
+Ayaan Godil - aag53475@uga.edu
 
 # Problem Description
 Our team is designing a data model for a "fake" local coffee shop named "Athens Cafe" where we strive to improve order processing, inventory tracking, employee management, and customer retention. 
