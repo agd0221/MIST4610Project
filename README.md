@@ -129,6 +129,13 @@ Query 9 retrieves the names, emails, and the total number of orders (referred to
 
 This query helps businesses track the number of visits for each customer. By grouping the data by customer Name and Email, it allows the business to gain insights into customer engagement. With this information, managers can identify frequent visitors. By knowing the visit count for each customer, businesses can assess customer retention and identify potential areas for improvement in customer experience.
 
+Query 10 (Complex):
+Query 10 retrieves the OrderID, CustomerID, and OrderDateTime for orders that contain items with discounts applied. The query uses an EXISTS clause to check if there are any records in the OrderDetails table that correspond to the order, and whether the order has a discount associated with it.
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/d2c5f19b-8215-4e2d-8a10-074ab633d24a" />
+
+This query is useful for businesses looking to identify orders that involved discounted items. By using the EXISTS clause, it checks if the OrderDetails table contains any items that are linked to discounts in the Discounts table.
+
 # Database Information
 Name of the database: al_Group_47114_G9
 
