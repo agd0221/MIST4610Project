@@ -8,6 +8,8 @@ Group 9
 Anastasia Draughn - agd82889@uga.edu
 Justin Tran - jat966554@uga.edu
 Claire Friers - cef19295@uga.edu
+Jack Saylor - jds56127@uga.edu
+
 # Problem Description
 Our team is designing a data model for a "fake" local coffee shop named "Athens Cafe" where we strive to improve order processing, inventory tracking, employee management, and customer retention. 
 As we all know, a coffee shop offers a diverse menu that includes a variety of coffee beverages -- ranging from classic coffee to special lattes and cold brews -- as well as coffee beans, freshly baked pastries, and branded merchandise such as mugs and tote bags.
