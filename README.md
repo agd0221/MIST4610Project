@@ -110,7 +110,7 @@ This query helps businesses identify the top-selling menu item for each day base
 Query 8 (Complex):
 Query 8 retrieves the supplier names, the number of menu items each supplier provides (ItemsSupplied), and the percentage of total menu items supplied by each supplier (PercentOfTotalItems). The results are grouped by supplier and sorted by the percentage of menu items each supplier provides.
 
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/f70d61d4-c860-415a-b78d-0fe2345f2a22" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/fd16509d-54ae-4623-890f-b9bd4afa11e6" />
 
 This query allows managers to understand which suppliers are responsible for the most menu items and whether there are any suppliers underutilized. This query helped highlight we are not fully utilizing our suppliers.
 
