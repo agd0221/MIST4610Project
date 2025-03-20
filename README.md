@@ -67,7 +67,8 @@ I would also like to mention that the dashed lines indicate a non-identifying re
 Query 1 (Simple):
 Query 1 retrieves a list of all employees, displaying their EmployeeID, Name, and Role. It directly pulls the necessary information from the Employees table without any joins or filters.
 
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/73e31f53-99e8-4c1e-a7b4-6a5452c1de1d" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/7c5b47ca-8e49-4791-8e50-4553b7a62ba7" />
+
 
 This query is useful for managers and HR teams who need a quick overview of all employees within the organization, along with their roles. It can serve as a foundation for more detailed employee reports, such as identifying specific roles within departments, tracking employee performance, or even managing schedules.
 
