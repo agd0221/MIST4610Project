@@ -89,7 +89,7 @@ This query provides a detailed view of each employee's scheduled shifts, includi
 Query 5 (Complex):
 Query 5 lists the quantity of each inventory item along with the name of the supplier that provides the item where the quantity in stock is below 100 units. The results are ordered in ascending order based on quantity, showing the items with the lowest stock first.
 
-<img src="https://github.com/user-attachments/assets/649a7dd3-fa04-49dd-8814-a9e663ee0a35" width="450" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/511ec4c8-f539-42c5-b11f-f440d328eda3" />
 
 Query 5 allows managers to quickly identify which inventory items are running low and which suppliers provide these items. By focusing on items with quantities below 100, managers can prioritize reordering essential ingredients, beverages, or supplies before they run out. Listing the results in ascending order based on quantity makes it easier to spot the most critically low items first, allowing for timely restocking and smooth coffee shop operations. 
 
