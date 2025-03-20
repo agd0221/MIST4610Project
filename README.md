@@ -79,13 +79,6 @@ Query 2 retrieves the Rating and Comments from the CustomerFeedback table where 
 
 This query helps managers quickly identify negative or critical customer feedback. By filtering for ratings of 3 or lower, it allows managers to focus on areas that may need attention, such as customer service or product quality. Reviewing this feedback can lead to actionable insights, allowing businesses to address customer concerns, improve their offerings, and enhance overall customer satisfaction. 
 
-Query 3 (Simple):
-Query 3 retrieves the Name, Email, and the number of customer visits (CustomerVisits) for each customer from the Customers table. 
-
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/db91e030-f89a-462f-a5f7-cd7a9aa3391f" />
-
-This query helps businesses track the number of visits for each customer. By grouping the data by customer Name and Email, it allows the business to gain insights into customer engagement. With this information, managers can identify frequent visitors. By knowing the visit count for each customer, businesses can assess customer retention and identify potential areas for improvement in customer experience.
-
 Query 4 (Simple):
 Query 4 retrieves the Name, Role, ShiftDate, ShiftStartTime, and ShiftEndTime for each employee by joining the Employees and EmployeeSchedule tables. It connects the two tables on the EmployeeID and Employees_EmployeeID to get the employee’s schedule information.
 
@@ -121,6 +114,12 @@ Query 8 retrieves the supplier names, the number of menu items each supplier pro
 
 This query allows managers to understand which suppliers are responsible for the most menu items and whether there are any suppliers underutilized. This query helped highlight we are not fully utilizing our suppliers.
 
+Query 9 (Complex):
+Query 9 retrieves the names, emails, and the total number of orders (referred to as "CustomerVisits") placed by each customer. It joins the Customers table with the Orders table to count how many orders each customer has placed, grouped by their name and email. 
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/20904053-f14b-47dd-9e5c-b3196faa9d0c" />
+
+This query helps businesses track the number of visits for each customer. By grouping the data by customer Name and Email, it allows the business to gain insights into customer engagement. With this information, managers can identify frequent visitors. By knowing the visit count for each customer, businesses can assess customer retention and identify potential areas for improvement in customer experience.
 
 # Database Information
 Name of the database: al_Group_47114_G9
