@@ -4,14 +4,14 @@
 Group 9
 
 # Problem Description
-Our team is designing a datamodel for "fake" local coffee shop named "Athens Cafe" where we strive to improve order processing, inventory tracking, employee management, and customer retention. 
-As we all know, a coffee shop offers a diverse menu that includes a variety of coffee beverages -- ranging from classic coffee to special lattes and cold brews -- as well as coffee beans, freshly basked pastries, and branded merchandise such as mugs and tote bags.
+Our team is designing a data model for a "fake" local coffee shop named "Athens Cafe" where we strive to improve order processing, inventory tracking, employee management, and customer retention. 
+As we all know, a coffee shop offers a diverse menu that includes a variety of coffee beverages -- ranging from classic coffee to special lattes and cold brews -- as well as coffee beans, freshly baked pastries, and branded merchandise such as mugs and tote bags.
 Customers have the flexibility to place orders in-store, where they can interact with baristas and enjoy a welcoming atmosphere.
 As an incentive, the coffee shop offers discounts on select items to encourage customers to return to repeat business.
 The ordering process involves customers selecting their desired products, after which baristas efficiently prepare and serve the beverages while ensuring quality and efficiency.
 In other words, customers order these products and are fulfilled by employees through the ordering process.
-To further improve customer satisfaction, customers have the oppurtunity to provide feedback based on their experiences with us that day. Feedback is important because it helps us maintain high standards and helps us refine operations.
-This datamodel will support inventory tracking by monitoring stock levels of cofee, coffee beans, and other ingredients; This ensures timely restocking and minimizing waste.
+To further improve customer satisfaction, customers have the opportunity to provide feedback based on their experiences with us that day. Feedback is important because it helps us maintain high standards and helps us refine operations.
+This datamodel will support inventory tracking by monitoring stock levels of coffee, coffee beans, and other ingredients; This ensures timely restocking and minimizing waste.
 Employee management is another crucial aspect, with the system maintaining schedules, tracking hours worked, abd monitoring performance metrics to streamline workflow and optimize labor efficiency.
 Ultimately, by implementing this database, "Athens Cafe" aims to enhance its ability to meet customer demands, maintain high product quality, and create a data-driven approach to running daily operations.
 
