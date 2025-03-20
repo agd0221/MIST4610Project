@@ -107,21 +107,14 @@ Query 6 lists each menu item along with the total quantity of that item ordered 
 Query 6 enables managers to see which menu items are the most popular based on the total quantity ordered. This helps with decisions such as inventory planning, promotional focus, and menu adjustments. By identifying top-selling items, managers can ensure that sufficient inventory is maintained, streamline the supply chain for these high-demand products, and potentially create promotions or bundles around them. Sorting the results in descending order highlights the best-selling items at the top, allowing managers to prioritize attention on the most impactful menu offerings.
 
 Query 7 (Complex):
-Query 7 retrieves the Name, Price, and the count of how many times each menu item has been ordered (TimesOrdered) from the MenuItems and OrderDetails tables. The results are grouped by the menu item name and price, and ordered in descending order based on the number of times each item has been ordered.
-
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/b099460f-609c-4e1a-8231-ba7c72c031ff" />
-
-This query enables businesses to identify their top-selling menu items based on how frequently they are ordered. By joining the MenuItems and OrderDetails tables, it counts the number of times each menu item appears in customer orders. Sorting the results in descending order highlights the most popular items at the top, allowing managers to focus on high-demand products.
-
-Query 8 (Complex):
-Query 8 retrieves the OrderDateTime, Name of the menu item, and the total quantity of that menu item ordered (TotalQuantity) for each specific day. It joins the Orders, OrderDetails, and MenuItems tables to calculate the total quantity ordered for each item, then compares the total quantity to identify the most ordered item for each day.
+Query 7 retrieves the OrderDateTime, Name of the menu item, and the total quantity of that menu item ordered (TotalQuantity) for each specific day. It joins the Orders, OrderDetails, and MenuItems tables to calculate the total quantity ordered for each item, then compares the total quantity to identify the most ordered item for each day.
 
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/30275b40-8e24-4bc8-96ae-bb31b081fd41" />
 
 This query helps businesses identify the top-selling menu item for each day based on the total quantity ordered. By using a subquery to calculate the maximum total quantity ordered on each day, the query ensures that only the highest-selling item for each day is returned. Sorting and grouping the results by order date and item name allows managers to easily track which menu items are most popular.
 
-Query 9 (Complex):
-Query 9 retrieves the supplier names, the number of menu items each supplier provides (ItemsSupplied), and the percentage of total menu items supplied by each supplier (PercentOfTotalItems). The results are grouped by supplier and sorted by the percentage of menu items each supplier provides.
+Query 8 (Complex):
+Query 8 retrieves the supplier names, the number of menu items each supplier provides (ItemsSupplied), and the percentage of total menu items supplied by each supplier (PercentOfTotalItems). The results are grouped by supplier and sorted by the percentage of menu items each supplier provides.
 
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/f70d61d4-c860-415a-b78d-0fe2345f2a22" />
 
