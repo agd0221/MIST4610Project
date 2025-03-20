@@ -36,7 +36,25 @@ Finally, the Payments table records financial transactions, including payment me
 I would also like to mention that the dashed lines indicate a non-identifying relationship which means that the child entity can exist independently of the parent entity. In contrast, the solid black lines indicate a idetnifying relationship which shows that the child can't exist independently from the parent entity.
 
 # Data Dictionary
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Orders)
 
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Customers)
+
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/OrderDetails)
+
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Payments)
+
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/MenuItems)
+
+![Datamodel](https://github.com/agd0221/MIST4610Project/blob/main/Discounts)
+
+![Datamodel](
+
+![Datamodel](
+
+![Datamodel](
+
+![Datamodel](
 
 # Queries
 Query 1 (Simple):
