@@ -68,7 +68,7 @@ I would also like to mention that the dashed lines indicate a non-identifying re
 
 # Queries
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/4c9aceb5-7305-4b89-b700-8e04465e0a66" />
+<img width="850" alt="image" src="https://github.com/user-attachments/assets/4df9df73-ef9c-4079-beaf-94549746d02c" />
 
 Query 1 (Simple):
 Query 1 retrieves a list of all employees, displaying their EmployeeID, Name, and Role. It directly pulls the necessary information from the Employees table without any joins or filters.
