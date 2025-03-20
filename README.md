@@ -82,7 +82,7 @@ This query helps managers quickly identify negative or critical customer feedbac
 Query 4 (Simple):
 Query 4 retrieves the Name, Role, ShiftDate, ShiftStartTime, and ShiftEndTime for each employee by joining the Employees and EmployeeSchedule tables. It connects the two tables on the EmployeeID and Employees_EmployeeID to get the employee’s schedule information.
 
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/ebe11011-5ce0-4325-b1ef-ab23273b69bb" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/7f88538b-002b-4610-855c-9d1e62f547d4" />
 
 This query provides a detailed view of each employee's scheduled shifts, including the date and start and end times of their shifts. By joining the Employees and EmployeeSchedule tables, the query enables managers to track when each employee is scheduled to work. This information is crucial for scheduling, shift planning, and resource management. It also helps HR teams or managers ensure proper staffing levels, avoid scheduling conflicts, and monitor employee availability.
 
