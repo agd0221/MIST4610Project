@@ -88,6 +88,13 @@ Query 7 retrieves the Name, Price, and the count of how many times each menu ite
 
 This query enables businesses to identify their top-selling menu items based on how frequently they are ordered. By joining the MenuItems and OrderDetails tables, it counts the number of times each menu item appears in customer orders. Sorting the results in descending order highlights the most popular items at the top, allowing managers to focus on high-demand products.
 
+Query 8 (Complex):
+Query 8 retrieves the OrderDateTime, Name of the menu item, and the total quantity of that menu item ordered (TotalQuantity) for each specific day. It joins the Orders, OrderDetails, and MenuItems tables to calculate the total quantity ordered for each item, then compares the total quantity to identify the most ordered item for each day.
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/30275b40-8e24-4bc8-96ae-bb31b081fd41" />
+
+This query helps businesses identify the top-selling menu item for each day based on the total quantity ordered. By using a subquery to calculate the maximum total quantity ordered on each day, the query ensures that only the highest-selling item for each day is returned. Sorting and grouping the results by order date and item name allows managers to easily track which menu items are most popular.
+
 # Database Information
 Name of the database: al_Group_47114_G9
 
