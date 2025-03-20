@@ -75,7 +75,7 @@ This query is useful for managers and HR teams who need a quick overview of all 
 Query 2 (Simple):
 Query 2 retrieves the Rating and Comments from the CustomerFeedback table where the Rating is less than or equal to 3.
 
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/b7db1031-89ea-42c1-bc18-5cc3524b697a" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/0a41de53-c276-45b3-acaf-bd8d3222caa8" />
 
 This query helps managers quickly identify negative or critical customer feedback. By filtering for ratings of 3 or lower, it allows managers to focus on areas that may need attention, such as customer service or product quality. Reviewing this feedback can lead to actionable insights, allowing businesses to address customer concerns, improve their offerings, and enhance overall customer satisfaction. 
 
