@@ -13,7 +13,7 @@ Ayaan Godil
 
 # Problem Description
 Our team is designing a data model for a "fake" local coffee shop named "Athens Cafe" where we strive to improve order processing, inventory tracking, employee management, and customer retention. 
-As we all know, a coffee shop offers a diverse menu that includes a variety of coffee beverages -- ranging from classic coffee to special lattes and cold brews -- as well as coffee beans, freshly baked pastries, and branded merchandise such as mugs and tote bags.
+As we all know, a coffee shop offers a diverse menu that includes a variety of coffee beverages -- ranging from classic coffee to special lattes and cold brews - as well as coffee beans, freshly baked pastries, and branded merchandise such as mugs and tote bags.
 Customers have the flexibility to place orders in-store, where they can interact with baristas and enjoy a welcoming atmosphere.
 As an incentive, the coffee shop offers discounts on select items to encourage customers to return to repeat business.
 The ordering process involves customers selecting their desired products, after which baristas efficiently prepare and serve the beverages while ensuring quality and efficiency.
